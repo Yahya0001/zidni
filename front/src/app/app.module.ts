@@ -13,6 +13,8 @@ import { RegisterComponent } from './views/auth/register/register.component';
 import { BuyTokenComponent } from './views/buy-token/buy-token.component';
 import { ConditionsComponent } from './views/conditions/conditions.component';
 import { FooterComponent } from './views/footer/footer.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import { ViewProductComponent } from './views/view-product/view-product.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FooterComponent } from './views/footer/footer.component';
     RegisterComponent,
     BuyTokenComponent,
     ConditionsComponent,
-    FooterComponent
+    FooterComponent,
+    AddProductComponent,
+    ViewProductComponent
   ],
   imports: [
     BrowserModule,
